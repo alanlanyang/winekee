@@ -1,0 +1,341 @@
+/*头部样式*/
+.clearfix::after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.web_head{
+	height:155px;
+	background: url(http://pic01.winekee.com/web/head_bg0.jpg) repeat-x;
+}
+/*头部第一层*/
+.web_head .top{
+	width:1200px;
+	margin:0 auto;
+	padding-left:10px;
+	line-height: 30px;
+}
+.web_head .login a{
+	font-size: 12px;
+	color:#fff;
+}
+.web_head .login a:nth-child(1){
+	font-weight: bold;
+}
+.web_head .login span{
+	display: inline-block;
+	font-size: 12px;
+	color:#575454;
+	margin-left:5px;
+	margin-right:4px;
+}
+.web_head .login{
+	float:left;
+}
+.web_head .headNav{
+	float:right;
+	margin-top:8px;
+}
+.web_head .headNav li{
+	float: left;
+	padding:0 9px;
+	height:12px;
+	line-height: 12px;
+	border-right:1px solid #575454;
+	color:#fff;
+}
+.web_head .headNav li a{
+	color:#fff;
+}
+.web_head .shopcar{
+	float:right;
+}
+.web_head .shopcar a{
+	display: inline-block;
+	background:url(http://pic01.winekee.com/web/bg.jpg) no-repeat -168px -202px;
+	width:144px;
+	height:30px;
+	padding-left: 50px;
+	color:#fff;
+}
+.web_head .headNav li:nth-child(2) span{
+	font-weight: bold;
+}
+.web_head .headNav li:nth-child(3) a{
+	padding: 6px 0 6px 20px;
+	background: url(http://pic01.winekee.com/web/phone.gif) no-repeat;
+}
+.web_head .headNav li:nth-child(5) a{
+	padding: 6px 0 6px 20px;
+	background: url(http://pic01.winekee.com/web/usa.gif) no-repeat left center;
+}
+.web_head .nav{
+	width:1200px;
+	margin:0 auto;
+	margin-top:20px;
+}
+/*logo栏目*/
+.web_head .nav .logo{
+	position: absolute;
+	left:0;
+	top:0;
+	width:220px;
+	height:55px;
+	background:url(http://pic01.winekee.com/web/Logo_220.gif) no-repeat;
+}
+.web_head .nav{
+	position:relative;
+}
+.web_head .search{
+	position:relative;
+	left:322px;
+	float:left;
+	margin-bottom: 13px;
+}
+.web_head .search input{
+	float:left;
+	border:none;
+	outline:none;
+	width:420px;
+	height:27px;
+	margin:0;
+	padding:0;
+}
+.web_head .search label{
+	display: block;
+	width:484px;
+	height:27px;
+	border:3px solid #6a0000;
+}
+.web_head .search #search{
+	float:left;
+	width:64px;
+	line-height:27px;
+	color:#fff;
+	text-align: center;
+	background:#6a0000;
+} 
+.web_head .search ul li{
+	float:left;
+	color:#ecd0c7;
+	line-height: 24px;
+	margin-right:7px;
+}
+.web_head .search ul li a{
+	float:left;
+	color:#ecd0c7;
+}
+.web_head .smallNav{
+	width:276px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	border:3px solid #820809;
+	border-bottom: none;
+	background:#6a0000;
+	padding: 0 4px;
+}
+.web_head .smallNav li{
+	float: left;
+}
+.web_head .smallNav li a{
+	color:#fff;
+	border-right:1px solid #974d4d;
+	padding:0 9px;
+	line-height: 28px;
+}
+/*hover效果-添加下划线*/
+.web_head .smallNav li a:hover{
+	text-decoration:underline;
+}
+.web_head .smallNav li:last-child a{
+	border-right:none;
+}
+/*menu*/
+.web_head .menu{
+	width:1200px;
+	margin:0 auto;
+	height:35px;
+}
+.web_head .menu li{
+	float: left;
+	height:35px;
+}
+.web_head .menu a{
+	float: left;
+	font-size: 14px;
+	color:#fff;
+	border-right:1px solid #500001;
+	padding-right:26px;
+	padding-left: 24px; 
+	margin-top:9px;
+	cursor:pointer
+}
+.web_head .menu>a:nth-child(1){
+	width:210px;
+	height:35px;
+	border: none;
+	background: url(http://pic01.winekee.com/web/bg.jpg) no-repeat -162px -29px;
+	margin: 0;
+	padding:0;
+}
+.web_head .menu li:hover{
+	background:#000;
+}
+/*footer样式*/
+.footer{
+	width:1200px;
+	height:80px;
+	margin:0 auto;
+	background:#f4f4f4;
+	margin-bottom:20px;
+}
+.footer .patener{
+	width:70px;
+	line-height:80px;
+	text-align: center;
+	background:#e5e5e5;
+	color:#351c20;
+	font-size: 14px;
+	float: left;
+}
+.footer ul{
+	float: left;
+	margin-top:10px;
+	margin-left: 18px;
+}
+.footer ul li{
+	float:left;
+	margin-right:18px;
+}
+.bottom{
+	background:#efefef;
+	border-top:1px solid #ccc;
+	width:100%;
+}
+.bottom .bottom_inner{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.bottom_inner .tip{
+	width:1200px;
+	height:74px;
+	background:url(http://pic.winekee.com/web/footer.gif) no-repeat 170px 0;
+	margin:27px auto;
+}
+.bottom_inner .list{
+	width:71%;
+	float: left;
+}
+.bottom_inner .list ul{
+	width:16%;
+	float:left;
+	padding-left: 4%;
+}
+.bottom_inner .list ul .bt{
+	font-weight: bold;
+}
+.bottom_inner .list ul li{
+	font-size: 12px;
+	color:#333333;
+	line-height: 20px;
+}
+.bottom_inner .list_r{
+	width:250px;
+	height:100px;
+	float: left;
+	margin-left:43px;
+}
+.bottom_inner .list_r span{
+	float:left;
+	width:81px;
+	height:81px;
+	background:url(http://pic.winekee.com/web/footer.gif) no-repeat 0 -138px;
+}
+.bottom_inner .list_r .txt{
+	margin-left:24px;
+	width:124px;
+	float:left;
+	line-height: 22px;
+}
+.bottom_inner .blink{
+	margin-top:20px;
+}
+.bottom_inner .blink>ul{
+	margin-bottom:10px;
+}
+.bottom_inner .blink>ul>li{
+	float:left;
+	width:80px;
+	line-height: 22px;
+	font-weight: bold;
+	padding-left: 10px;
+	text-align: center;
+}
+/*hover效果*/
+.bottom_inner .blink>ul>li:hover{
+	background:#ccc;
+}
+.bottom_inner .blink .list1 li,.list2 li{
+	float:left;
+	margin-right:14px;
+	font-weight: normal;
+	font-size: 12px;
+	color:#cccccc;
+}
+.bottom_inner .blink .list1{
+	width:120px;
+	position:relative;
+	left:35px;
+}
+.bottom_inner .blink .list2{
+	width:120px;
+	position:relative;
+	top:-14px;
+	left:35px;
+	display: none;
+}
+.bottom_inner .ps{
+	color:#bf2423;
+	font-weight: bold;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.bottom_inner .listlink{
+	text-align: center;
+}
+.bottom_inner .listlink a{
+	color:#333333;
+	border-right:1px solid #333;
+	padding-right:10px;
+	margin-left:10px;
+}
+.bottom_inner .last{
+	text-align: center;
+	margin-top:16px;
+}
+.bottom_inner .last a{
+	color:#333;
+	background:url();
+}
+.bottom_inner .last a img{
+	display: inline-block;
+}
+.bottom_inner .lastImg{
+	width:600px;
+	height:52px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.bottom_inner .lastImg a{
+	float: left;
+    width: 106px;
+    height: 37px;
+    display: block;
+    background: url(http://pic.winekee.com/web/footer.gif) no-repeat -286px -90px;
+}
