@@ -1,0 +1,327 @@
+.clearfix::after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.banner{
+	width:1200px;
+	margin:0 auto;
+}
+.banner .left{
+	float:left;
+}
+.banner .left .leader{
+	width:206px;
+	border:2px solid #1e1e1e;
+	/*border-top:1px solid #1e1e1e;*/
+	border-top:none;
+}
+.banner .left .leader li p{
+	font-size: 14px;
+	color:#000;
+	font-weight: bold;
+	line-height:34px;
+}
+.banner .left .leader li>a{
+	float:left;
+	font-size: 12px;
+	color:#4b3538;
+	line-height:22px;
+	margin-right:10px;
+	white-space: nowrap;
+}
+.banner .left .leader li{
+	padding:4px 10px 6px 10px;
+	border-bottom:1px solid #cccccc;
+}
+.banner .left #kind{
+	position:relative;
+}
+.banner .left #place{
+	position:relative;
+}
+/*位置*/
+.banner .left #kinds{
+	position:absolute;
+	left:206px;
+	top:-1px;
+	display: none;
+}
+.banner .left #places{
+	position:absolute;
+	left:206px;
+	top:-1px;
+	display: none;
+}
+/*移入效果*/
+.banner .leader li:hover{
+	background:#e5ddd1;
+}
+/*二级菜单布局*/
+.banner .ej{
+	width:295px;
+	padding:3px 13px 13px 21px;
+	background:#e5ddd1;
+	border-top:1px solid #000;
+	border-right:2px solid #000;
+	border-bottom:2px solid #000;
+}
+.banner .ej dl{
+	border-bottom:1px dotted #999999;
+	line-height: 20px;
+	padding:9px 0px 8px 0px;
+}
+.banner .ej dt{
+	width:80px;
+	float:left;
+}
+.banner .ej dt a{
+	color:#000;
+}
+.banner .ej dd{
+	width:214px;
+	float:left;
+}
+.banner .ej dd a{
+	color:#4b3538;
+	float:left;
+	margin-right:18px;
+}
+.banner .ej dl:last-child{
+	border:none;
+}
+/*banner中间部分*/
+.banner .center{
+	float:left;
+	width:770;
+	height:480px;
+}
+/*main部分*/
+.main{
+	width:1200px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.main .left{
+	width:980px;
+	height:338px;
+	border:1px solid #bebebe;
+	border-top:none;
+	float: left;
+}
+.main .left .header li{
+	float:left;
+	font-size: 14px;
+	color:#351c20;
+	font-weight: bold;
+	width:326px;
+	line-height:33px;
+	text-align: center;
+	border-right:1px solid #bebebe;
+	border-bottom:1px solid #bebebe;
+	border-top:2px solid #bebebe;
+}
+.main .left .header li:last-child{
+	border-right:none;
+}
+.main .left .header .enter{
+	border-right:1px solid #bebebe;
+	border-bottom:none;
+	border-top:2px solid #8f0100;
+}
+.main .left .header{
+	margin-bottom:6px;
+}
+/*倒计时*/
+.main .left .goods{
+	height:284px;
+}
+.main .left .goods .counttime{
+	color:#351c20; 
+	background: url(http://pic01.winekee.com/web/bg01.gif) no-repeat -67px 0;
+	padding-left:18px;
+	margin:3px 0;
+}
+.main .left .goods .counttime .timer{
+	background:#87777a;
+	padding:1px 4px;
+	margin:0 3px;
+	color:#fff;
+}
+.main .left .goods img{
+	width:110px;
+	height:180px;
+	margin-left:35px;
+}
+.main .left .goods li{
+	width:180px;
+	height:265px;
+	margin-left:9px;
+	padding-bottom:15px;
+	float:left;
+	position:relative;
+	border:2px solid #fff;
+}
+/*移入交替显示*/
+.main .left .goods .photo{
+	display: block;
+	width:12px;
+	height:13px;
+	background:url(http://pic01.winekee.com/web/bg.jpg) no-repeat 0 -65px;
+	margin-right:7px;
+}
+.main .left .goods .title{
+	background:#9a8d8f;
+	color:#fff;
+	width:175px;
+	padding:5px 0px 4px 5px;
+	position:absolute;
+	top:200px;
+	display: block;
+}
+.main .left .goods .title2{
+	background:#9a8d8f;
+	color:#fff;
+	padding:5px 0px 4px 5px;
+	width:175px;
+	height:76px;
+	position:absolute;
+	top:138px;
+	display: none;
+}
+.main .left .goods .title2 a{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:80px;
+	line-height: 26px;
+	text-align: center;
+	background:#8a0403;
+	color:#fff;
+}
+/*移入*/
+.main .left .goods li:hover .title{
+	display: none;
+}
+.main .left .goods li:hover .title2{
+	display: block;
+}
+.main .left .goods li:hover{
+	border:2px solid #eeeeee;
+}
+.main .left .goods span{
+	float: left;
+}
+.main .left .goods .name{
+	width:180px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	color:#333333;
+	line-height: 36px;
+	margin-top:20px;
+}
+.main .left .goods .price{
+	font-size: 12px;
+	color:#8f0100;
+	font-weight: bold;
+}
+/*main右部分*/
+.main .right{
+	float: left;
+	width:209px;
+	margin-left:7px;
+}
+.main .right_t{
+	width:209px;
+	height:134px;
+	border:1px solid #bebebe;
+	border-top:none;
+	margin-bottom:10px;
+}
+.main .right_t .title li{
+	float:left;
+	font-size: 12px;
+	color:#351c20;
+	font-weight: bold;
+	width:69px;
+	line-height:25px;
+	text-align: center;
+	border-right:1px solid #bebebe;
+	border-bottom:1px solid #bebebe;
+	border-top:2px solid #bebebe;
+}
+.main .right_t .title li:last-child{
+	border-right:none;
+}
+.main .right_t .content1{
+	padding:5px;
+}
+.main .right_t .content1 li{
+	background: url(http://pic01.winekee.com/web/bg01.gif) no-repeat -64px -70px;
+	padding-left: 10px;
+	line-height:24px;
+}
+.main .right_t .title .enter{
+	border-right:1px solid #bebebe;
+	border-bottom:none;
+	border-top:2px solid #8f0100;
+}
+.main .right_b .head{
+	width:210px;
+	height:25px;
+	background: url(http://pic01.winekee.com/web/bg01.gif) no-repeat 0 -128px;
+}
+.brand{
+	font-size: 14px;
+	font-weight: bold;
+	padding-top:21px;
+	padding-bottom:12px;
+	width:1200px;
+	margin:0 auto;
+}
+/*footer样式*/
+.footer{
+	width:1200px;
+	height:80px;
+	margin:0 auto;
+	background:#f4f4f4;
+	margin-bottom:20px;
+}
+.footer .patener{
+	width:70px;
+	line-height:80px;
+	text-align: center;
+	background:#e5e5e5;
+	color:#351c20;
+	font-size: 14px;
+	float: left;
+}
+.footer ul{
+	float: left;
+	margin-top:10px;
+	margin-left: 18px;
+}
+.footer ul li{
+	float:left;
+	margin-right:18px;
+}
+.bottom{
+	background:#efefef;
+	border-top:red;
+	width:100%;
+}
+.bottom .bottom_inner{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.bottom_inner .tip{
+	width:1200px;
+	height:74px;
+	background:url(http://pic.winekee.com/web/footer.gif) no-repeat 170px 0;
+	margin:27px auto;
+}

@@ -1,0 +1,183 @@
+/*头部样式*/
+.clearfix::after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.web_head{
+	height:155px;
+	background: url(http://pic01.winekee.com/web/head_bg0.jpg) repeat-x;
+}
+/*头部第一层*/
+.web_head .top{
+	width:1200px;
+	margin:0 auto;
+	padding-left:10px;
+	line-height: 30px;
+}
+.web_head .login a{
+	font-size: 12px;
+	color:#fff;
+}
+.web_head .login a:nth-child(1){
+	font-weight: bold;
+}
+.web_head .login span{
+	display: inline-block;
+	font-size: 12px;
+	color:#575454;
+	margin-left:5px;
+	margin-right:4px;
+}
+.web_head .login{
+	float:left;
+}
+.web_head .headNav{
+	float:right;
+	margin-top:8px;
+}
+.web_head .headNav li{
+	float: left;
+	padding:0 9px;
+	height:12px;
+	line-height: 12px;
+	border-right:1px solid #575454;
+	color:#fff;
+}
+.web_head .headNav li a{
+	color:#fff;
+}
+.web_head .shopcar{
+	float:right;
+}
+.web_head .shopcar a{
+	display: inline-block;
+	background:url(http://pic01.winekee.com/web/bg.jpg) no-repeat -168px -202px;
+	width:144px;
+	height:30px;
+	padding-left: 50px;
+	color:#fff;
+}
+.web_head .headNav li:nth-child(2) span{
+	font-weight: bold;
+}
+.web_head .headNav li:nth-child(3) a{
+	padding: 6px 0 6px 20px;
+	background: url(http://pic01.winekee.com/web/phone.gif) no-repeat;
+}
+.web_head .headNav li:nth-child(5) a{
+	padding: 6px 0 6px 20px;
+	background: url(http://pic01.winekee.com/web/usa.gif) no-repeat left center;
+}
+.web_head .nav{
+	width:1200px;
+	margin:0 auto;
+	margin-top:20px;
+}
+/*logo栏目*/
+.web_head .nav .logo{
+	position: absolute;
+	left:0;
+	top:0;
+	width:220px;
+	height:55px;
+	background:url(http://pic01.winekee.com/web/Logo_220.gif) no-repeat;
+}
+.web_head .nav{
+	position:relative;
+}
+.web_head .search{
+	position:relative;
+	left:322px;
+	float:left;
+	margin-bottom: 13px;
+}
+.web_head .search input{
+	float:left;
+	border:none;
+	outline:none;
+	width:420px;
+	height:27px;
+	margin:0;
+	padding:0;
+}
+.web_head .search label{
+	display: block;
+	width:484px;
+	height:27px;
+	border:3px solid #6a0000;
+}
+.web_head .search #search{
+	float:left;
+	width:64px;
+	line-height:27px;
+	color:#fff;
+	text-align: center;
+	background:#6a0000;
+} 
+.web_head .search ul li{
+	float:left;
+	color:#ecd0c7;
+	line-height: 24px;
+	margin-right:7px;
+}
+.web_head .search ul li a{
+	float:left;
+	color:#ecd0c7;
+}
+.web_head .smallNav{
+	width:276px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	border:3px solid #820809;
+	border-bottom: none;
+	background:#6a0000;
+	padding: 0 4px;
+}
+.web_head .smallNav li{
+	float: left;
+}
+.web_head .smallNav li a{
+	color:#fff;
+	border-right:1px solid #974d4d;
+	padding:0 9px;
+	line-height: 28px;
+}
+.web_head .smallNav li:last-child a{
+	border-right:none;
+}
+/*menu*/
+.web_head .menu{
+	width:1200px;
+	margin:0 auto;
+	height:35px;
+}
+.web_head .menu li{
+	float: left;
+	height:35px;
+}
+.web_head .menu a{
+	float: left;
+	font-size: 14px;
+	color:#fff;
+	border-right:1px solid #500001;
+	padding-right:26px;
+	padding-left: 24px; 
+	margin-top:9px;
+	cursor:pointer
+}
+.web_head .menu>a:nth-child(1){
+	width:210px;
+	height:35px;
+	border: none;
+	background: url(http://pic01.winekee.com/web/bg.jpg) no-repeat -162px -29px;
+	margin: 0;
+	padding:0;
+}
+.web_head .menu li:hover{
+	background:#000;
+}
